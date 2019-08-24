@@ -1,0 +1,50 @@
+﻿Please review the project and follow the steps below.
+
+1. Given the following validation rules, please write NUnit test(s) in UserTests class to assert that the API is enfocing the rules against the /api/user/save endpoint.
+
+Some base code has been provided in UserEngine to make this call. You will want to inspect the response structure and add additional code to inspect the response.
+
+	a. First name cannot be null or empty
+	b. Last name cannot be null or empty
+	c. Payment type must be either 1 = Check or 2 = Wire
+	
+2. The developers created a new endpoint "/api/user/link" that takes a json payload using the PUT meethod with the properties of UserId = int and CustomerId = int.
+
+The endpoint simply links a valid userid to a valid customerid.  At current time, valid userids are inclusively between 0 and 100 and valid customerids are inclusively between 1000 and 2000.
+
+Write new code to call the new endpoint and write NUnit test(s) to ensure that the end point is functioning as designed.
+
+
+Answer the following questions:
+
+1. Describe what additional tests would you write for these endpoints?
+
+Input below
+Input above
+Input string
+Input real
+Input Very large
+Input Hex, Oct
+Use different case
+
+
+
+*your answer here*
+
+2. Assuming you want to test hundreds of variants of data input for these tests, how would you automate the tests from 1 and 2 above? As bonus points you can also code this.
+
+*your answer here*
+
+External Data file read in with the data.
+
+3. How would you make the above test less error prone? You may also demonstrate this in your coding and highlight here.
+
+*your answer here*
+Check the input is the correct type.
+Test if the Mock is up and running.
+Test if the internet is up
+
+
+
+
+Zip up the completed project and re-upload to the shared Google Drive folder that was provided to you.
